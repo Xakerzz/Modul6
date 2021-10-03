@@ -6,6 +6,9 @@ public class Main {
         cat.move();
         SubClass s = new SubClass(10, 12);
         System.out.println(s.add(10));
+        Animal c = new Cat();
+        System.out.println(c instanceof Cat);
+        c.move();
     }
 }
 
